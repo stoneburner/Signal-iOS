@@ -97,7 +97,7 @@ BOOL IsUsingProductionService(void);
 #define textSecure2FAAPI @"v1/accounts/pin"
 #define textSecureRegistrationLockV2API @"v1/accounts/registration_lock"
 
-#define SignalApplicationGroup @"group.org.whispersystems.signal.group"
+#define SignalApplicationGroup @"group.technology.kasimir.shared-container"
 
 #endif
 
