@@ -348,11 +348,12 @@ NSString *const TSAccountManager_NeedsAccountAttributesUpdateKey = @"TSAccountMa
         return [[SignalServiceAddress alloc] initWithUuidString:uuidString phoneNumber:localNumber];
     }
 }
-
+/*
 + (nullable SignalServiceAddress *)localAddress
 {
     return [[self sharedInstance] localAddress];
 }
+ */
 
 - (nullable SignalServiceAddress *)localAddress
 {

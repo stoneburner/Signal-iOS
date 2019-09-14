@@ -1,6 +1,7 @@
 //
 //  Copyright (c) 2019 Open Whisper Systems. All rights reserved.
 //
+import Contacts
 
 @objc(OWSFakeContactsManager)
 public class FakeContactsManager: NSObject, ContactsManagerProtocol {
@@ -58,3 +59,4 @@ public class FakeContactsManager: NSObject, ContactsManagerProtocol {
         return nil
     }
 }
+
